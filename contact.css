@@ -1,0 +1,69 @@
+
+        * {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+           
+        }
+        
+        header {
+           position:fixed;
+           top:0;
+           left:0;
+           width:100%;
+           padding:20px 10px;
+           background: rgb(211, 134, 134);
+           display:flex;
+           justify-content: space-between;
+           align-items: center;
+           z-index: 100;
+
+        }
+        .logo{
+            font-size:25p;
+            padding-left: 6%;
+            color:black;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .navbar a{
+            font-size:18px;
+            color:black;
+            text-decoration:none;
+            font-weight: 500;
+            margin-left: 35px;
+            transition: .3s;
+        }
+        .navbar a:hover{
+            color:white;
+        }
+        .home{
+            height:100vh;
+            display:flex;
+            background-image: url("ppic1.jpg");
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            padding:0 10%;
+        }
+        .social{
+            position:absolute;
+            width:170px;
+            display: flex;
+            justify-content: space-between;
+          }
+    
+          .social a{
+           display: inline-flex;
+           justify-content: center;
+           align-items: center;
+           width:40px;
+           height:40px;
+           background:transparent;
+           border: 2px solid white;
+           border-radius: 20px;
+           color:white;
+           text-decoration: none;
+          }
