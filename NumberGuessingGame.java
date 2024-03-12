@@ -29,6 +29,7 @@ public class NumberGuessingGame {
                         + " attempts!");
             }
         } while (guess != targetNumber);
+        System.out.println("Your Total Score is:" + attempts * 10);
 
         scanner.close();
     }
